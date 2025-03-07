@@ -1,11 +1,11 @@
 body {
-    background: linear-gradient(to bottom,#800020, #000000);
+    background-color: black;
     height: 100vh;
 }
 
 ul {
     list-style-type: none;
-    color: wheat;
+    color: white;
     font-family: "Inter", sans-serif;
     font-weight: 500;
     font-size: 15px;
@@ -15,12 +15,94 @@ ul {
     height: 500px;
     background-image: url(/static/fundo\ setas.png);
     background-size: contain;
-    width: 45%;
-    height: 100%;
+    width: 100%;
+    height: 40vw;
     background-repeat: no-repeat;
+    display: flex; /* Ativa flexbox */
+    flex-direction: column; /* Organiza os elementos em coluna */
+    align-items: flex-start; 
+
 }
 
 .navbar-nav {
     margin-top: -19px;
 }
+
+.nomes {
+    font-family: "Zen Dots", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 7vw;
+    height: 10vw;
+    margin-left: 22vw;
+    margin-top: 10vw;
+    
+}
+
+.Guerra {
+    display: inline-block ;
+    margin-left: 42%;
+    position: relative;
+    top: -1vw;
+
+}
+.subtitulo {
+    font-size: 2vw;
+    font-family: "Zen Dots", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top:4vw;
+    margin-left: 37vw;
+
+}
+
+.titulosobre {
+    font-size: 1vw;
+    font-family: "Zen Dots", sans-serif;
+    font-weight: 400;
+
+}
+.textosobremim {
+    font-size: 1vw;
+    font-family: "Zen Dots", sans-serif;
+    font-weight: 400;
+    margin-left: 5%;
+    
+
+}
+
+.sobre {
+    margin-left: 14vw;
+    margin-right: 15vw;
+    margin-top: 10vw;
+}
+
+.soft {
+    margin-top: 10vw;
+}
+
+
+.titulosoft {
+    font-size: 5vw;
+    font-family: "Zen Dots", sans-serif;
+    font-weight: 400;
+    text-align: center;
+
+
+}
+.skillsgrid {
+    display: grid;
+    margin-left: 9vw;
+    margin-right: 8vw;
+    grid-template-columns: repeat(auto-fit, minmax(13vw,1fr));
+    gap: 2vw;
+    padding: 2vw;
+}
+
+.skillsgrid img {
+    width: 12vw;
+    height: 12vw;
+    object-fit: contain;
+}
+
 
