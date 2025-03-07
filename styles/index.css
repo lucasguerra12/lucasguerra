@@ -1,5 +1,9 @@
 body {
-    background-color: black;
+    background-image: repeating-linear-gradient(
+        to bottom,
+        #37060E 0%,
+        #000000 35%,
+        #37060E 100%);
     height: 100vh;
 }
 
@@ -87,6 +91,7 @@ ul {
     font-family: "Zen Dots", sans-serif;
     font-weight: 400;
     text-align: center;
+    color: white;
 
 
 }
