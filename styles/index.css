@@ -154,3 +154,102 @@ ul {
     top: 2vw;
     left: 2vw;
 }
+
+.tituloprojetos {
+    font-size: 5vw;
+    font-family: "Zen Dots", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    margin-top: 5vw;
+    margin-bottom: 3vw;
+}
+
+
+.projetos {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 2vw;
+}
+
+.descricao h2 {
+    color: aliceblue;
+    font-family: "Inria Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  text-align: center;
+}
+
+.descricao p {
+    color: #F5F5DC;
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+     padding-right: 5vw;
+     padding-top: vw;
+}
+
+.projeto {
+    display: grid;
+    gap: 20px;
+}
+
+.projeto img {
+    max-width: 200px;
+    height: auto;
+    border: 2px solid #3b3939;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+ 
+/* TELAS MAIORES */
+@media (min-width: 768px) {
+    .projeto {
+        grid-template-columns: 1fr 1fr; /* Duas colunas em telas maiores */
+        margin-bottom: 5vw;
+        gap: 1;
+    }
+
+    /* Inverte o layout do segundo projeto */
+    .projetos div:nth-child(2) {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "descricao imagem";
+    }
+    .projetos div:nth-child(2) img{
+        grid-area: imagem;
+    }
+    .projetos div:nth-child(2) .descricao h2{
+        grid-area: descricao;
+        text-align: center;
+        margin-bottom: 20px;
+
+    }
+    .projeto img {
+        max-width: 390px; /* Aumenta a largura máxima da imagem */
+        height: auto; /* Mantém a proporção da imagem */
+        border: 2px solid #ccc;
+    border-radius: 5px;
+      }
+
+      .descricao p {
+        color: #F5F5DC;
+        font-family: "Merriweather", serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+        font-variation-settings:"wdth" 100;
+         padding-right: 5vw;
+         font-size: 1vw;
+    }
+    
+
+    .projetos div:nth-child(2) .descricao p{
+        grid-area: descricao;
+        text-align: center;
+        margin-left: 5vw;
+
+    }
+}
