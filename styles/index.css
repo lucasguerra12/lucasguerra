@@ -186,6 +186,8 @@ ul {
     font-family: "Merriweather", serif;
     font-optical-sizing: auto;
     font-weight: 300;
+    font-size: 2vw;
+    text-align: center;
     font-style: normal;
     font-variation-settings:"wdth" 100;
      padding-right: 5vw;
@@ -228,7 +230,7 @@ ul {
 
     }
     .projeto img {
-        max-width: 390px; /* Aumenta a largura máxima da imagem */
+        max-width: 550px; /* Aumenta a largura máxima da imagem */
         height: auto; /* Mantém a proporção da imagem */
         border: 2px solid #ccc;
     border-radius: 5px;
