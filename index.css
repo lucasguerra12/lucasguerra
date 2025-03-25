@@ -15,9 +15,9 @@ ul {
     font-size: 15px;
 }
 
-.background-conteiner {
+.background-container {
     height: 500px;
-    background-image: url(/static/fundo\ setas.png);
+    background-image: url('fundosetas.png');
     background-size: contain;
     width: 100%;
     height: 40vw;
