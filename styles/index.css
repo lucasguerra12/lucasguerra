@@ -97,8 +97,8 @@ ul {
 }
 .skillsgrid {
     display: grid;
-    margin-left: 9vw;
-    margin-right: 8vw;
+    margin-left: 8vw;
+    margin-right: 7vw;
     grid-template-columns: repeat(auto-fit, minmax(13vw,1fr));
     gap: 2vw;
     padding: 2vw;
@@ -110,4 +110,47 @@ ul {
     object-fit: contain;
 }
 
+.botao-descricao {
+        background-color: #D9D9D9;
+        height: 2vw;
+        width: 40vw; /* Largura definida */
+        margin: 0 auto; /* Centraliza horizontalmente */
+        border-radius: 20px;
+      }
 
+
+.titulo-botao {
+    color: black ;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1vw;
+    text-align: center;
+    padding: 2px;
+
+}
+
+.grid2 {
+    display: grid;
+    margin-left: 15vw;
+    grid-template-columns: repeat(2, 1fr); /* Força a criação de 2 colunas iguais */
+    gap: 2vw;
+    padding: 2vw;
+    margin-top: 7vw;
+}
+
+.grid2 img {
+    height: 8vw;
+}
+
+.grid2 div {
+    display: flex;
+    color: aliceblue;
+    font-size: 2vw;
+}
+
+.grid2 p {
+    position: relative;
+    top: 2vw;
+    left: 2vw;
+}
