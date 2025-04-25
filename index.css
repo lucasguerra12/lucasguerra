@@ -182,7 +182,7 @@ ul {
 }
 
 .descricao p {
-    color: #F5F5DC;
+    color: #ffffff;
     font-family: "Merriweather", serif;
     font-optical-sizing: auto;
     font-weight: 300;
@@ -206,7 +206,11 @@ ul {
     border-radius: 5px;
     margin: 0 auto;
 }
- 
+.formacoes {
+    display: block;
+    
+    }
+
 /* TELAS MAIORES */
 @media (min-width: 768px) {
     .projeto {
@@ -220,6 +224,7 @@ ul {
         grid-template-columns: 1fr 1fr;
         grid-template-areas: "descricao imagem";
     }
+    
     .projetos div:nth-child(2) img{
         grid-area: imagem;
     }
@@ -229,6 +234,29 @@ ul {
         margin-bottom: 20px;
 
     }
+
+    .projetos div:nth-child(4) {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "descricao imagem";
+        margin-left: 40px;
+        
+    }
+    
+    .projetos div:nth-child(4) img{
+        grid-area: imagem;
+    }
+    .projetos div:nth-child(4) .descricao h2{
+        grid-area: descricao;
+        text-align: center;
+        margin-top: 40px;
+        
+
+    }
+    
+
+    
+    
+
     .projeto img {
         max-width: 550px; /* Aumenta a largura máxima da imagem */
         height: auto; /* Mantém a proporção da imagem */
@@ -237,7 +265,7 @@ ul {
       }
 
       .descricao p {
-        color: #F5F5DC;
+        color: #ffffff;
         font-family: "Merriweather", serif;
         font-optical-sizing: auto;
         font-weight: 300;
@@ -255,3 +283,110 @@ ul {
 
     }
 }
+
+
+.entrecontato {
+    font-size: 5vw;
+    font-family: "Zen Dots", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    margin-top: 10vw;
+    margin-bottom: 3vw;
+}
+
+.info-box {
+    background-color: rgba(34, 31, 31, 0.5);
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+    font-family: sans-serif;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin-left: 30vh;
+    margin-right: 30vh;
+    position: relative; /* Mantemos o position relative */
+    margin-top: 23px;
+    
+  }
+  .title {
+    font-size: 23px;
+    margin-bottom: 5px;
+    font-family: "Zen Dots", sans-serif;
+}
+.date {
+    font-size: 14px;
+    color: #ccc;
+    font-family: "Zen Dots", sans-serif;
+  }
+  .unip-logo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 100px;       /* Ajuste conforme o tamanho da sua imagem */
+    height: auto;      /* Mantém a proporção da imagem */
+  }
+
+  .origamid-logo{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 90px;       /* Ajuste conforme o tamanho da sua imagem */
+    height: auto;
+  }
+
+  .ebac-logo {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 120px;       /* Ajuste conforme o tamanho da sua imagem */
+    height: auto;
+  }
+
+  @media screen and (max-width: 600px) {
+    .info-box {
+      margin-left: 20px; /* Margem para telas menores que 600px */
+      margin-right:20px ;
+    }
+    .title {
+        font-size: 9px;
+        margin-bottom: 5px;
+        font-family: "Zen Dots", sans-serif;
+    
+  }.date {
+    font-size: 8px;
+    color: #ccc;
+    font-family: "Zen Dots", sans-serif;
+  }
+  .unip-logo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 50px;       /* Ajuste conforme o tamanho da sua imagem */
+    height: auto;      /* Mantém a proporção da imagem */
+  }
+
+  .origamid-logo {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    width: 50px;       /* Ajuste conforme o tamanho da sua imagem */
+    height: auto;
+  }
+
+  .ebac-logo{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    width: 70px;       /* Ajuste conforme o tamanho da sua imagem */
+    height: auto;
+  }
+}
+  
+  
+  
+  
+  
+  
+
