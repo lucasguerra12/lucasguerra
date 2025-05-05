@@ -8,7 +8,6 @@
 
 Nesta seção, listo as tecnologias que foram diretamente utilizadas no desenvolvimento deste portfólio:
 
-* [<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="20" alt="React" />](https://react.dev/) **React**: Biblioteca JavaScript para construção de interfaces de usuário dinâmicas e interativas.
 * [<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="20" alt="JavaScript" />](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) **JavaScript**: Linguagem de programação fundamental para a interatividade web.
 * [<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="20" alt="HTML5" />](https://developer.mozilla.org/pt-BR/docs/Web/HTML) **HTML5**: Linguagem de marcação para estruturar o conteúdo da web.
 * [<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="20" alt="CSS3" />](https://developer.mozilla.org/pt-BR/docs/Web/CSS) **CSS3**: Linguagem de estilo para design e layout de páginas web.
@@ -25,10 +24,12 @@ Além das tecnologias utilizadas neste projeto específico, possuo experiência 
 * **Git**: Sistema de controle de versões distribuído.
 * **Figma**: Ferramenta de design de interface e prototipagem.
 * **Jira**: Ferramenta de gerenciamento de projetos.
+* **React**: Biblioteca JavaScript para construção de interfaces de usuário dinâmicas e interativas.
 
 ## 🚀 Projetos em Destaque
+<h1><a href="https://github.com/Byte-Team-Fatec/Byte_Team-API-1-">Byte Tech
+<h1><a href="https://github.com/matheuskarnas/API-2">Debuggers
 
-[Aqui você pode adicionar uma breve descrição de alguns projetos que você gostaria de destacar no seu portfólio, se houver.]
 
 ## 📬 Contato
 
