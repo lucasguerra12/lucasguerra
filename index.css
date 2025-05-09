@@ -24,8 +24,8 @@ ul {
     width: 100%;
     height: 40vw;
     background-repeat: no-repeat;
-    display: flex; /* Ativa flexbox */
-    flex-direction: column; /* Organiza os elementos em coluna */
+    display: flex; 
+    flex-direction: column; 
     align-items: flex-start; 
 
 }
@@ -124,8 +124,8 @@ ul {
 .botao-descricao {
         background-color: #D9D9D9;
         height: 2vw;
-        width: 40vw; /* Largura definida */
-        margin: 0 auto; /* Centraliza horizontalmente */
+        width: 40vw; 
+        margin: 0 auto; 
         border-radius: 20px;
       }
 
@@ -144,7 +144,7 @@ ul {
 .grid2 {
     display: grid;
     margin-left: 15vw;
-    grid-template-columns: repeat(2, 1fr); /* Força a criação de 2 colunas iguais */
+    grid-template-columns: repeat(2, 1fr);
     gap: 2vw;
     padding: 2vw;
     margin-top: 7vw;
@@ -269,8 +269,8 @@ ul {
     
 
     .projeto img {
-        max-width: 550px; /* Aumenta a largura máxima da imagem */
-        height: auto; /* Mantém a proporção da imagem */
+        max-width: 550px;
+        height: auto; 
         border: 2px solid #ccc;
     border-radius: 5px;
       }
@@ -315,7 +315,7 @@ ul {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     margin-left: 30vh;
     margin-right: 30vh;
-    position: relative; /* Mantemos o position relative */
+    position: relative; 
     margin-top: 23px;
     
   }
@@ -333,15 +333,15 @@ ul {
     position: absolute;
     top: 10px;
     right: 10px;
-    width: 100px;       /* Ajuste conforme o tamanho da sua imagem */
-    height: auto;      /* Mantém a proporção da imagem */
+    width: 100px;      
+    height: auto;      
   }
 
   .origamid-logo{
     position: absolute;
     top: 10px;
     right: 10px;
-    width: 90px;       /* Ajuste conforme o tamanho da sua imagem */
+    width: 90px;       
     height: auto;
   }
 
@@ -351,13 +351,13 @@ ul {
     right: 10px;
     margin-top: 10px;
     margin-right: 10px;
-    width: 120px;       /* Ajuste conforme o tamanho da sua imagem */
+    width: 120px;       
     height: auto;
   }
 
   @media screen and (max-width: 600px) {
     .info-box {
-      margin-left: 20px; /* Margem para telas menores que 600px */
+      margin-left: 20px; 
       margin-right:20px ;
     }
     .title {
@@ -374,15 +374,15 @@ ul {
     position: absolute;
     top: 10px;
     right: 10px;
-    width: 50px;       /* Ajuste conforme o tamanho da sua imagem */
-    height: auto;      /* Mantém a proporção da imagem */
+    width: 50px;       
+    height: auto;     
   }
 
   .origamid-logo {
     position: absolute;
     top: 15px;
     right: 10px;
-    width: 50px;       /* Ajuste conforme o tamanho da sua imagem */
+    width: 50px;      
     height: auto;
   }
 
@@ -390,97 +390,97 @@ ul {
     position: absolute;
     top: 15px;
     right: 10px;
-    width: 70px;       /* Ajuste conforme o tamanho da sua imagem */
+    width: 70px;      
     height: auto;
   }
 
 }
 
 .container {
-    width: 100%px; /* Ajuste a largura conforme necessário */
+    width: 100%px; 
 
-    background-color: #2e2e2e; /* Cor do fundo do retângulo principal */
+    background-color: #2e2e2e; 
     border-radius: 10px;
     padding: 30px;
     display: flex;
     flex-direction: column;
-    gap: 30px; /* Espaçamento entre os botões */
-    margin: 0 auto; /* Centralizar na página (opcional) */
+    gap: 30px; 
+    margin: 0 auto; 
 }
 
 .button {
     display: flex;
     align-items: center;
-    justify-content: flex-start; /* Alinhar conteúdo à esquerda */
+    justify-content: flex-start;
     padding: 10px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-family: sans-serif; /* Fonte padrão */
+    font-family: sans-serif; 
 }
 
 .button .text {
-    flex-grow: 1; /* Texto ocupa o máximo de espaço */
-    text-align: center; /* Centralizar texto */
+    flex-grow: 1; 
+    text-align: center;
     font-size: 14px;
     font-weight: bold;
 }
 
 .button img {
-    width: 20px; /* Tamanho das logos */
+    width: 20px; 
     height: 20px;
-    margin-right: 10px; /* Espaço entre logo e texto */
+    margin-right: 10px;
 }
 
 .whatsapp {
-    background-color: #25D366; /* Cor do botão WhatsApp */
-    color: white; /* Cor do texto */
+    background-color: #25D366; 
+    color: white; 
 }
 
 .linkedin {
-    background-color: #0077B5; /* Cor do botão LinkedIn */
+    background-color: #0077B5;
     color: white;
 }
 
 .github {
-    background-color: #333; /* Cor do botão GitHub */
+    background-color: #333;
     color: white;
 }
 
 .email {
-    background-color: #f0f0f0; /* Cor do botão Email */
+    background-color: #f0f0f0;
     color: #333;
 }
 
-/* Opcional: Efeito hover */
+
 .button:hover {
     opacity: 0.8;
 }
 
 
 .footer {
-    background-color: #222A68; /* Cor de fundo do footer */
-    padding: 15px 0; /* Espaçamento interno vertical */
-    text-align: center; /* Centralizar os ícones */
+    background-color: #222A68; 
+    padding: 15px 0; 
+    text-align: center; 
     margin-top: 10vh;
 }
 
 .social-icons {
     display: flex;
-    justify-content: center; /* Centralizar os ícones horizontalmente */
-    align-items: center; /* Centralizar os ícones verticalmente */
-    gap: 20px; /* Espaçamento entre os ícones */
+    justify-content: center;
+    align-items: center; 
+    gap: 20px; 
 }
 
 .social-icon img {
-    width: 30px; /* Tamanho dos ícones */
+    width: 30px; 
     height: 30px;
-    opacity: 0.7; /* Opacidade inicial dos ícones */
-    transition: opacity 0.3s ease-in-out; /* Transição suave para o efeito hover */
+    opacity: 0.7;
+    transition: opacity 0.3s ease-in-out;
 }
 
 .social-icon img:hover {
-    opacity: 1; /* Opacidade total no hover */
+    opacity: 1; 
 }
   
 a {
