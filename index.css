@@ -13,7 +13,9 @@ ul {
     font-family: "Inter", sans-serif;
     font-weight: 500;
     font-size: 15px;
+    text-decoration: none;
 }
+
 
 .background-container {
     height: 500px;
@@ -30,6 +32,15 @@ ul {
 
 .navbar-nav {
     margin-top: -19px;
+}
+
+.navlink {
+  text-decoration: none;  
+  color: white;            
+}
+
+.navlink:hover {
+  color: #4e4e4e;          
 }
 
 .nomes {
@@ -382,6 +393,7 @@ ul {
     width: 70px;       /* Ajuste conforme o tamanho da sua imagem */
     height: auto;
   }
+
 }
 
 .container {
@@ -446,7 +458,6 @@ ul {
 }
 
 
-
 .footer {
     background-color: #4a1515; /* Cor de fundo do footer */
     padding: 15px 0; /* Espaçamento interno vertical */
@@ -472,8 +483,9 @@ ul {
     opacity: 1; /* Opacidade total no hover */
 }
   
-  
-  
+a {
+    text-decoration: none;
+}
   
   
   
